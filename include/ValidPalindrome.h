@@ -11,7 +11,7 @@ using std::string;
 
 class ValidPalindrome {
 public:
-    bool validPalindrome(const string &s) {
+    static bool validPalindrome(const string &s) {
         for (std::size_t i = 0, j = s.size() - 1;
              i < j;
              i++, j--) {
@@ -21,7 +21,7 @@ public:
     }
 
 private:
-    static bool validPalindrome(string s, int i, int j) {
+    static bool validPalindrome(string s, std::size_t i, std::size_t j) {
         while (i < j) {
             if (s[i++] != s[j--]) return false;
         }
