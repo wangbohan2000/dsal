@@ -1,10 +1,11 @@
-#include "LRUCache.h"
-#include <ValidPalindrome.h>
+#include "leetcode.h"
 #include <iostream>
 
+using namespace std;
+
 int main(int argc, char **argv) {
-    ValidPalindrome v;
-    auto res = ValidPalindrome::validPalindrome("abca");
-    std::cout << res << std::endl;
+    Solution s;
+    auto res = s.validPalindrome("abca");
+    cout << res << endl;
     return 0;
 }

@@ -6,21 +6,19 @@
 
 #IncludeRegexTransform: 
 
-../include/LRUCache.h
-unordered_map
+../include/leetcode.h
+string
 -
 list
 -
-
-../include/ValidPalindrome.h
-string
+unordered_map
+-
+vector
 -
 
-Z:/workspace/dsal/main.cpp
-LRUCache.h
-Z:/workspace/dsal/LRUCache.h
-ValidPalindrome.h
--
+C:/workspace/dsal/main.cpp
+leetcode.h
+C:/workspace/dsal/leetcode.h
 iostream
 -
 
