@@ -6,9 +6,21 @@
 
 #IncludeRegexTransform: 
 
-/tmp/tmp.UTP3DEvo8E/main.cpp
-iostream
+../include/LRUCache.h
+unordered_map
 -
-vector
+list
+-
+
+../include/ValidPalindrome.h
+string
+-
+
+Z:/workspace/dsal/main.cpp
+LRUCache.h
+Z:/workspace/dsal/LRUCache.h
+ValidPalindrome.h
+-
+iostream
 -
 

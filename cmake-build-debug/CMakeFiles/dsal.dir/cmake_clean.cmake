@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/dsal.dir/main.cpp.o"
+  "CMakeFiles/dsal.dir/main.cpp.obj"
+  "dsal.exe"
+  "dsal.exe.manifest"
   "dsal.pdb"
-  "dsal"
+  "libdsal.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
