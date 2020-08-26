@@ -22,6 +22,8 @@ using std::copy;
 class Solution {
 public:
 
+    /// 双指针
+
     // 88. 合并两个有序数组
     void merge(vector<int> &nums1, int m, vector<int> &nums2, int n) {
         int tail = m + n - 1, tail1 = m - 1, tail2 = n - 1;
